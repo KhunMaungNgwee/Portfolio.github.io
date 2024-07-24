@@ -259,3 +259,29 @@ h1 {
     border: none;
     transition: 0.5s;
 }
+.card{
+    border:none;
+    outline: none;
+    box-shadow: -8px 5px 89px -64px rgba(0,0,0,0.75);
+-webkit-box-shadow: -8px 5px 89px -64px rgba(0,0,0,0.75);
+-moz-box-shadow: -8px 5px 89px -64px rgba(0,0,0,0.75);
+}
+.card p{
+    color: gray;
+}
+.circle{
+    height: 70px;
+    width:70px;
+    background-color: lightgray;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
