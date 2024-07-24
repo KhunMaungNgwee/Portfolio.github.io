@@ -62,7 +62,8 @@
                     <h1 data-aos="zoom-in-down" data-aos-duration="1000">About Me</h1>
                     <h6 data-aos="zoom-out-down" data-aos-duration="1000">Junior Java Developer</h6>
                     <div class="paragraph-container">
-                        <p class="py-3" data-aos="zoom-out-left" data-aos-duration="1000" > As a <span class="BOLD">Junior Web Developer</span>,
+                        <p class="py-3" data-aos="zoom-out-left" data-aos-duration="1000"> As a <span
+                                class="BOLD">Junior Web Developer</span>,
                             My primary goal is
                             to
                             contribute positively to a team while
@@ -126,7 +127,7 @@
     </section>
     <section class="service py-5 bg-light">
         <div class="container py-5">
-            <h1 class="text-center pb-5">Service</h1>
+            <h1 class="text-center pb-5" data-aos="zoom-in-down" data-aos-duration="1000">Service</h1>
             <div class="row pb-3">
                 <div class="col-lg-4  mb-3">
                     <div class="card text-center py-3" data-aos="fade-down-right" data-aos-duration="1000">
@@ -148,7 +149,7 @@
                         <div class="card-body">
                             <div class="circle">
                                 <span>
-                                    <i class="fas fa-desktop"></i>
+                                    <i class="fa fa-usd" aria-hidden="true"></i>
                                 </span>
                             </div>
                             <h4 class="font-weight-blood pb-2">Web Design</h4>
@@ -163,7 +164,7 @@
                         <div class="card-body">
                             <div class="circle">
                                 <span>
-                                    <i class="fas fa-desktop"></i>
+                                    <i class="fa fa-play-circle-o" aria-hidden="true"></i>
                                 </span>
                             </div>
                             <h4 class="font-weight-blood pb-2">Web Design</h4>
@@ -181,7 +182,7 @@
                         <div class="card-body">
                             <div class="circle">
                                 <span>
-                                    <i class="fas fa-desktop"></i>
+                                    <i class="fa fa-youtube"></i>
                                 </span>
                             </div>
                             <h4 class="font-weight-blood pb-2">Web Design</h4>
@@ -196,7 +197,7 @@
                         <div class="card-body">
                             <div class="circle">
                                 <span>
-                                    <i class="fas fa-desktop"></i>
+                                    <i class="fa fa-heart"></i>
                                 </span>
                             </div>
                             <h4 class="font-weight-blood pb-2">Web Design</h4>
@@ -211,7 +212,7 @@
                         <div class="card-body">
                             <div class="circle">
                                 <span>
-                                    <i class="fas fa-desktop"></i>
+                                    <i class="fa fa-camera"></i>
                                 </span>
                             </div>
                             <h4 class="font-weight-blood pb-2">Web Design</h4>
@@ -224,6 +225,124 @@
             </div>
         </div>
     </section>
+   
+    <section class="portfolio py-5">
+        <div class="container py-5">
+            <h1 class="text-center pb-3" data-aos="zoom-in-down" data-aos-duration="1000">My Latest Projects</h1>
+            <div class="control text-center py-3">
+                <ul>
+                    <li class="btn1 button active mr-2" data-filter="filter" data-aos="fade-right" data-aos-duration="1000">All</li>
+                    <li class="btn1 button active mr-2" data-filter="Brand" data-aos="zoom-in" data-aos-duration="1000">Brand</li>
+                    <li class="btn1 button active mr-2" data-filter="Design" data-aos="zoom-in" data-aos-duration="1000">Design</li>
+                    <li class="btn1 button active mr-2" data-filter="Graphic"data-aos="fade-left" data-aos-duration="1000">Graphic</li>
+                </ul>
+            </div>
+            <div class="row py-5">
+                <div class="col-lg-4">
+                    <div class="item">
+                        <img src="./home.png" class="img-fluid  filter" alt="" data-aos="fade-down-left" data-aos-duration="1000">
+                        <span><i class="fa fa-play-circle-o" data-toggle="modal" data-target="#portfoliomodal3"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item">
+                        <img src="./anime.png" class="img-fluid filter Brand" alt="" data-aos="fade-down-right" data-aos-duration="1000" >
+                        <span><i class="fa fa-play-circle-o" data-toggle="modal" data-target="#portfoliomodal"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item">
+                        <img src="./lead.png" class="img-fluid  filter" alt="" data-aos="zoom-in" data-aos-duration="1000">
+                        <span><i class="fa fa-play-circle-o" data-toggle="modal" data-target="#portfoliomodal1"></i></span>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <div class="portfolio-modal modal fade mt-5" id="portfoliomodal1" aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content text-center">
+                <div class="container-fluid py-3">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+
+                            <img src="./lead.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <input type="button" class="btn1 mr-3" value="View Detail"
+                                onclick="window.location.href='./template/home.html'">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade mt-5" id="portfoliomodal" aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content text-center">
+                <div class="container-fluid py-3">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <img src="./anime.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <input type="button" class="btn1 mr-3" value="View Detail"
+                                onclick="window.location.href='./design/index.html';">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade mt-5" id="portfoliomodal3" aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content text-center">
+                <div class="container-fluid py-3">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                           
+                            <img src="./home.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./login.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./sms.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./change.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./sms1.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./sms2.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./sms3.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./sms4.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./sms5.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <!-- <input type="button" class="btn1 mr-3" value="View Detail"
+                                onclick="window.location.href='./design/index.html';"> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".button").click(function () {
+                var value = $(this).attr("data-filter");
+
+                if (value === "all") {
+                    $(".filter").show(100);
+                } else {
+                    $(".filter").not("." + value).hide(1000);
+                    $(".filter").filter("." + value).show(1000);
+                }
+
+                // Set active class on clicked button
+                $(this).addClass('active').siblings().removeClass('active');
+            });
+
+            // Click event for any button inside ul
+            $("ul").on('click', '.button', function () {
+                $(this).addClass('active').siblings().removeClass('active');
+            });
+        });
+    </script>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
